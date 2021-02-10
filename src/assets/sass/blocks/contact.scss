@@ -1,0 +1,133 @@
+.contact {
+    padding: 5rem 0;
+    position: relative;
+}
+
+.order__form {
+    padding: 2.5rem 1rem 5rem;
+    box-shadow: $shadow;
+
+    @media(max-width: 992px) {
+        margin-bottom: 3rem;
+    }
+}
+
+.order__title {
+    color: $orange;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.order__subtitle{
+    color: #707070;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 2.3rem;
+}
+
+.order__input {
+    border: 1px solid #eff2f2;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+
+    &::placeholder {
+        color: #bdbdbd;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+.order__button {
+    background-color: $orange;
+    color: $white;
+    padding: .9rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    width: 100%;
+    outline: 0;
+    margin: 0;
+    border: 2px solid $orange;
+    cursor: pointer;
+    transition: background-color .1s linear, color .1s linear;
+
+    &:hover {
+        background-color: $white;
+        color: $orange;
+    }
+}
+
+.contact__form {
+    padding: 1.6rem 1.5rem 1.5rem;
+    box-shadow: $shadow;
+}
+
+.form__title {
+    color: $black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+
+.form__group {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.form-group--button {
+    display: flex;
+    width: 100%;
+}
+
+.form__input {
+    width: 100%;
+    padding: .8rem;
+    border: 1px solid #cff0ff;
+
+    &::placeholder {
+        color: #b7b7b7;
+        font-size: 0.8rem;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+.form__button {
+    background-color: $orange;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: $white;
+    padding: .7rem 0;
+    min-width: 10.5rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-left: auto;
+    border: 2px solid $orange;
+    transition: background-color .1s linear, color .1s linear;
+
+    &:hover {
+        background-color: $white;
+        color: $orange;
+    }
+}
+
+.contact__decor {
+    position: absolute;
+    left: 0;
+    bottom: -.7rem;
+
+    @media(max-width: 1200px) {
+        max-width: 60%;
+    }
+}

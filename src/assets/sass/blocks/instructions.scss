@@ -1,0 +1,30 @@
+.instructions {
+    background-color: #f6f6f6;
+    padding: 4.5rem 0 18rem;
+    position: relative;
+}
+
+.instructions__deco {
+    position: absolute;
+    z-index: 1;
+
+
+    &--left {
+        left:0;
+        bottom: 0;
+
+        @media(max-width:992px) {
+            max-width: 40%;
+        }
+    }
+
+    &--right {
+        right: 0;
+        bottom: -3rem;
+
+        @media(max-width:1600px) {
+            max-width: 35%;
+        }
+    }
+}
+

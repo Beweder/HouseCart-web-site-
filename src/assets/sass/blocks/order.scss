@@ -1,0 +1,68 @@
+.order {
+    width: 35.5rem;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 0px 0px 0px 20px rgba(0,0,0, .45);
+
+    @media(max-width: 992px) {
+        width: 30rem;
+    }
+
+    @media(max-width: 720px) {
+        width: 25rem;
+    }
+
+    
+        
+
+    &--subscribe {
+        width: 39.3rem;
+        z-index: 100;
+
+        @media(max-width: 992px) {
+            width:30rem;
+        }
+
+        @media(max-width: 720px) {
+            width:20rem;
+        }
+    }
+}
+
+.input {
+    margin: 0;
+    border: 0;
+    width: 100%;
+    padding: 1.2rem;
+    outline: 0;
+
+    font-weight: 400;
+    font-size: 0.8rem;
+    
+
+    &::placeholder {
+        color: #b7b7b7;
+    }
+}
+
+.submit {
+    margin: 0;
+    border: 0;
+    padding: 1rem;
+    outline: 0;
+    width: 10.4rem;
+    background: $orange;
+    color: $white;
+    font-size: .9rem;
+    font-weight: 700;
+    cursor: pointer;
+
+    transition: background .1s linear, color .1s linear;
+
+    &:hover {
+        color: $orange;
+        background: $white;
+        border: 1px solid $orange;
+        box-shadow: inset 0px 0px 15px 0px rgba($orange,0.5);
+    }
+}

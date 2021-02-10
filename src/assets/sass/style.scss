@@ -1,0 +1,47 @@
+@import "vars";
+@import "mixins";
+
+/* Default styles */
+html {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Roboto', sans-serif;
+    color: $black;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+    margin: 0;
+}
+
+/* Bootstrap */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/grid";
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/logo";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/features";
+@import "blocks/instructions";
+@import "blocks/boxes";
+@import "blocks/titles";
+@import "blocks/advantages";
+@import "blocks/subscribe";
+@import "blocks/order";
+@import "blocks/contact";
+@import "blocks/footer";
