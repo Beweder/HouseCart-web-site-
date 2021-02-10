@@ -3,4 +3,4 @@ Real estate site
 
 ...steps for run the project
 1. npm install
-2. npm gulp
+2. gulp
